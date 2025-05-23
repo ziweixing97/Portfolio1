@@ -1,0 +1,29 @@
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+nav{
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav{
+    font-size: 1.5rem;
+    color: #033826;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    /* padding: 1.2rem; */
+    /* background-color: orange; */
+}
+
+blockquote{
+    background-color: #FFB138;
+    padding: 1rem;
+}
