@@ -27,3 +27,13 @@ blockquote{
     background-color: #FFB138;
     padding: 1rem;
 }
+
+.epi-img, .nyt-img{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+
+.epi-img h4, .nyt-img h4{
+    text-align: center;
+}
