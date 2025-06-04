@@ -285,6 +285,13 @@
   
   .intro{
     margin-top: 2rem;
+    background-color: #3B0092;
+    padding-bottom: 2rem;
+  }
+
+  .header{
+    padding-top: 2rem;
+    color : white;
   }
 
   h1{
@@ -366,6 +373,7 @@
 
     .header{
       grid-column: 2;
+      grid-row: 1/span 2;
     }
   
     
