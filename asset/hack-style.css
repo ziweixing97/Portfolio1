@@ -1,0 +1,34 @@
+h1{
+    font-size: 5rem;
+}
+
+.quest1 h1{
+    color: #F6F509;
+    padding-top: 2rem;
+}
+
+.quest{
+    margin-top: 15rem;
+    color: #F6F509;
+    padding-bottom: 2rem;
+}
+
+.prompt, .time, .problem, .position{
+    margin-top: 5rem;
+}
+
+.question, .pain{
+    background-color: black;
+    text-align: center;
+}
+
+.painful h1{
+    color: #F6F509;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.intro, .hmw{
+    color: white;
+    padding-bottom: 2rem;
+}
