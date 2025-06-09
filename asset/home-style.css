@@ -137,7 +137,7 @@
   .snip1273.hover figcaption:after {
     opacity: 0.1;
   } */
-  .card-wrapper1, .card-wrapper2, .card-wrapper3, .card-wrapper4 {
+  .card-wrapper1, .card-wrapper2, .card-wrapper3, .card-wrapper4, .card-wrapper5, .card-wrapper6 {
     position: relative;
     width: 100%;
     margin-top: 2rem;
@@ -149,7 +149,9 @@
   .card-wrapper1 img,
   .card-wrapper2 img,
   .card-wrapper3 img,
-  .card-wrapper4 img {
+  .card-wrapper4 img,
+  .card-wrapper5 img,
+  .card-wrapper6 img {
     width: 100%;
     transition: all 0.3s linear;
   }
@@ -173,7 +175,9 @@
   .card-wrapper1:hover .card-bottom,
   .card-wrapper2:hover .card-bottom,
   .card-wrapper3:hover .card-bottom,
-  .card-wrapper4:hover .card-bottom {
+  .card-wrapper4:hover .card-bottom,
+  .card-wrapper5:hover .card-bottom,
+  .card-wrapper6:hover .card-bottom {
     transform: translate(0%, -50%);
     opacity: 1;
     pointer-events: auto;
@@ -183,7 +187,9 @@
   .card-wrapper1:hover img,
   .card-wrapper2:hover img,
   .card-wrapper3:hover img,
-  .card-wrapper4:hover img {
+  .card-wrapper4:hover img,
+  .card-wrapper5:hover img,
+  .card-wrapper6:hover img {
     filter: blur(1.4px);
     transform: scale(1.5);
     box-shadow: inset -6px -1px 32px 0px rgba(0, 0, 0, 0.75);
@@ -307,6 +313,10 @@
       grid-template-rows: repeat(4, 1fr);
     } */
 
+    body{
+      padding-bottom: 5rem;
+    }
+
     h1{
       font-size: 5rem;
     }
@@ -324,13 +334,13 @@
       margin-top: 1%;
     }
 
-    .card-wrapper1, .card-wrapper2, .card-wrapper3, .card-wrapper4{
+    .card-wrapper1, .card-wrapper2, .card-wrapper3, .card-wrapper4, .card-wrapper5, .card-wrapper6{
       margin-top: 2rem;
     }
-    .card-wrapper1, .card-wrapper3{
+    .card-wrapper1, .card-wrapper3, .card-wrapper5{
       margin-right: 1rem;
     }
-    .card-wrapper2, .card-wrapper4{
+    .card-wrapper2, .card-wrapper4, .card-wrapper6{
       margin-left: 1rem;
     }
 

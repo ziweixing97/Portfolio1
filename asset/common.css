@@ -1,11 +1,15 @@
-body{
+    body{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-  }
+   }
   
-  .topnav {
+    .topnav {
       overflow: hidden;
       background-color: #333;
+    }
+
+    header{
+      padding-top: 2rem;
     }
     
     .topnav a {
