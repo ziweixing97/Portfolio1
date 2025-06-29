@@ -71,7 +71,7 @@ img{
         margin-top: 8rem;
     }
     
-    .inspire{
+    .inspire, .research{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
@@ -100,6 +100,10 @@ img{
         padding: 2rem;
         
     }
+
+    .text{
+        margin-top: 20rem;
+      }
     
     .describ{
         grid-column: 3/span 4;
@@ -107,23 +111,122 @@ img{
         padding: 2rem;
     }
 
-    .research{
-        display: grid;
-        grid-template-columns:repeat(2, 1fr) 100px repeat(2, 1fr);
-        grid-template-rows: auto;
+   
+
+    aside{
+        grid-row: 1;
     }
+
+    .subtitle{
+        grid-column: 1/span 2;
+    }
+
+    .research-img1, .research-img2, .reason-img1, .reason-img2, .charact-img, .fujian-img1, .fujian-img3, .fujian-img4,.fujian-img5, .fujian-img6, .structure-h, .reason-h, .describ-c, .structure-fd, .describ-r-f, .describ-c-f{
+        padding-left: 2rem;
+        
+    }
+
+    .research-img1, .research-img2, .reason-img1, .reason-img2, .charact-img, .fujian-img1, .fujian-img3, .fujian-img4,.fujian-img5, .fujian-img6{
+        margin-top: 5rem;
+    }
+
+    .research-img1{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .research-img2{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .structure-h{
+        grid-column: 1/span 2;
+        grid-row: 4;
+    }
+
+    .reason-img1{
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .reason-img2{
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    .reason-h{
+        grid-column: 1/span 2;
+        grid-row: 6;
+    }
+
+    .charact-img{
+        grid-column: 1;
+        grid-row: 7;
+    }
+
+    .describ-c{
+        grid-column: 1/span 2;
+        grid-row: 8;
+    }
+
+    .subtitle2{
+        grid-column: 3;
+        
+    }
+
+    .fujian-img1{
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .fujian-img3{
+        grid-column: 4;
+        grid-row: 3;
+    }
+
+    .structure-fd{
+        grid-column: 3/span 4;
+        grid-row: 4;
+    }
+
+    .fujian-img4{
+        grid-column: 3;
+        grid-row: 5;
+    }
+
+    .fujian-img6{
+        grid-column: 4;
+        grid-row: 5;
+    }
+
+    .describ-r-f{
+        grid-column: 3/span 4;
+        grid-row: 6;
+    }
+
+    .fujian-img5{
+        grid-column: 3;
+        grid-row: 7;
+    }
+
+    .describ-c-f{
+        grid-column: 3/span 4;
+        grid-row: 8;
+    }
+
 
     /* .huizhou-r{
         display: grid;
         grid-column: 1;
     } */
 
-    .reaserch-img1, .reason-img1, .charact-img{
+    /* .reaserch-img1, .reason-img1, .charact-img{
         grid-column: 1;
         padding-right: 2rem;
     }
 
-    .reaserch-img2, .reason-img2, .describ-c{
+    .reaserch-img2, .reason-img2{
         grid-column: 2;
         padding-left: 2rem;
     }
@@ -133,31 +236,32 @@ img{
         padding: 2rem;
     }
 
-    .subtitle2{
+
+    .subtitle2, .structure-fd{
         grid-column: 3/span 4;
         grid-row: 2;
         padding: 2rem;
     }
 
-    .fujian-img1, .fujian-img2{
+    .fujian-img1, .fujian-img3{
         grid-row: 3;
         /* padding: 2rem; */
         /* padding: 2rem; */
-    }
+    
 
-    .fujian-img3, .structure-fd{
+    /* .structure-fd{
         grid-row: 4;
-        /* padding: 2rem; */
+        
     }
     
-    .fujian-img4, .describ-r-f{
+    .describ-r-f{
         grid-column: 4/span 5;
-        /* padding: 2rem; */
+        
     }
 
-    .fujian-img4{
+    .fujian-img4, .fujian-img6{
         grid-row: 5;
-        /* padding: 2rem; */
+        
     }
 
     .describ-r-f{
@@ -165,10 +269,15 @@ img{
         padding: 2rem;
     }
 
-    .fujian-img5, .describ-c-f{
+    .fujian-img5, .describ-c-f, .charact-img{
         grid-row: 7;
         padding: 2rem;
     }
+
+    .describ-c{
+        grid-column: 1/span 2;
+        grid-row: 8;
+    }  */
 
     .shape{
         grid-column: 3;
@@ -194,11 +303,10 @@ img{
         margin-top: 2rem;
     }
 
-    .fujian-img1, .fujian-img3, .fujian-img4, .fujian-img5{
+    /* .fujian-img1, .fujian-img4, .fujian-img5{
         grid-column: 4;
-        /* padding: 2rem;
-        border-left:  2px solid black; */
-    }
+        
+    } */
 
     /* .fujian-img4{
     width: 0;
@@ -209,10 +317,10 @@ img{
     } */
 
 
-    .fujian-img2, .structure-fd, .describ-c-f{
+    /* .fujian-img3, .fujian-img6, .describ-c-f{
         grid-column: 5;
-        padding: 0 2rem;
-    }
+        padding-left: 2rem;
+    } */
 
     .huizhou-1, .huizhou-2, .fujian-1, .fujian-2{
         display: grid;
@@ -331,12 +439,15 @@ img{
 
     .poster-img1{
         grid-column: 1;
-        padding: 8rem;
+        padding-right: 6rem;
+        padding-left: 6rem;
+        /* margin-top: 1rem; */
     }
 
     .poster-img2{
         grid-column: 2;
-        padding: 8rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
 
     .exibition{

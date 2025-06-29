@@ -21,10 +21,15 @@ h1{
   letter-spacing: 2px;
 }
 
-h2, h3{
-  font-family: "Kanit", serif;
-  letter-spacing: 2px;
+h2{
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
 }
+
+h3{
+  font-family: "Libre Franklin", sans-serif;
+}
+
 
 p, li, blockquote{
   font-family: "Work Sans", serif;
@@ -154,7 +159,7 @@ li{
   }
 
   h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h3{
@@ -169,8 +174,11 @@ li{
     font-size: 1.5rem;
   }
 
+
+
   li{
     font-size: 1.5rem;
+    padding-top: 0;
   }
 
   img{
@@ -178,7 +186,9 @@ li{
   }
 
   blockquote{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    margin-left: 0;
+    /* text-align:  center; */
   }
 
 
@@ -200,7 +210,54 @@ li{
     margin-top: 0;
   }
 
-  .industry-research{
+  .research{
+    margin-top: 2rem;
+  }
+
+  .research h2, .idea h2, .high h2{
+    margin: 0;
+  }
+
+  .audit, .account, .forms, .payment, .selection, .schedule-audit, .confirm, .plan{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  aside{
+    grid-column: 1/span 2;
+  }
+
+  .audit-img{
+    padding-right: 2rem;
+  }
+
+  .summary{
+    padding-left: 2rem;
+  }
+
+  .interview1, .interview2, .interview3, .insight, .hmw{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-top: 5rem;
+    background-color: #F9E3E0;
+    padding: 2rem;
+  }
+
+  .recmmend{
+    padding-left: 2rem;
+  }
+
+  .insight-head{
+    grid-column: 1/span 3;
+  }
+
+  .insight2, .insight3, .hmw2, .hmw3{
+    margin-left: 2rem;
+  }
+
+  /* .industry-research{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -210,16 +267,20 @@ li{
   .audit, .account, .forms, .payment, .selection, .schedule-audit, .confirm, .plan, .script, .script2, .script3{
     padding: 1rem 3rem 1rem 3rem;
     
-  }
+  } */
 
 
-  .plan, .plan2, .script, .script2, .script3{
+  .plan, .script, .script2, .script3{
     margin-top: 10rem;
   }
 
-  .plan2{
-    padding-top: 5rem;
+  .plan1{
     padding-left: 2rem;
+  }
+
+  .plan2{
+    padding-top: 6rem;
+    padding-left: 4rem;
     padding-right: 2rem;
   }
 
@@ -228,11 +289,11 @@ li{
     margin-left: 2rem;
   }
 
-  .script2, .script3{
-    padding-top: 7rem;
+  .script, .script2, .script3{
+    padding: 3rem;
   }
 
-  .audit, .plan, .script, .first-p{
+  /* .audit, .plan, .script, .first-p{
     grid-column: 1;
   }
 
@@ -242,36 +303,33 @@ li{
 
   .forms{
     grid-column: 3;
-  }
+  } */
 
-  .interview{
+  /* .interview{
     grid-column: 1/span 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     margin-top: 10rem;
-  }
+  } */
 
-  .first-p, .second-p, .third-p{
-    /* margin: 1.5rem; */
-    padding: 2rem;
-  }
+  
 
-  .second-p, .third-p{
+  /* .second-p, .third-p{
     margin-left: 1.5rem;
-  }
+  } */
 
   .person{
     width: 50%;
     margin-left: 20%;
   }
 
-  .sythesis, .ideation{
+  /* .sythesis, .ideation{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     margin-top: 10rem;
-  }
+  } */
 
   .note, .insight{
     grid-column: 1;
@@ -281,44 +339,69 @@ li{
     padding: 2rem;
   }
 
-  .sketch{
+  /* .sketch{
     margin-left: 3rem;
     margin-top: 0;
     padding: 0;
     
-  }
+  } */
 
   .hmw1, .hmw2, .hmw3{
-    width: 110%;
     padding: 2rem;
   }
 
-  .hmw2, .hmw3{
-    margin-top: 10rem;
-  }
 
-  .syth{
+
+  /* .hmw2, .hmw3{
+    margin-top: 10rem;
+  } */
+
+  /* .syth{
     grid-column: 1/span 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     margin-top: 10rem;
+  } */
+
+  .syth, .idea-sketch{
+    margin-top: 5rem;
   }
 
   .sktech-img{
-    grid-column: 1;
-    padding-left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
   }
 
-  .sketch{
+  .sketch, .sketch2{
+    padding: 2rem;
+  }
+
+  /* .sketch2{
+    margin-top: 5rem;
+  } */
+
+  /* .sketch{
     width: 80%;
     margin-top: 0;
     padding-left: 2rem;
-  }
+  } */
 
   .syth-idea{
-    margin-left: 3rem;
-    margin-right: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    /* margin-left: 3rem;
+    margin-right: 12rem; */
+  }
+
+  .syth-head{
+    grid-column: 1/span 3;
+  }
+
+  .schedule, .tutor{
+    margin-left: 2rem;
   }
 
   .prd{
@@ -401,7 +484,9 @@ li{
     grid-column: 1;
   }
 
-
+  /* .account-img{
+    margin-top: 7rem;
+  } */
 
   
 }
