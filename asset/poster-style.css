@@ -5,10 +5,11 @@ body{
 
 
   header{
-    background-color: #C7CBD4;
+    /* background-color: #C7CBD4; */
   }
 
   .description{
+    /* background-color: #e7eaf2; */
     text-align: center;
     padding: 2rem;
   }

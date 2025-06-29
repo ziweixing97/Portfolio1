@@ -10,6 +10,11 @@ h3{
     font-size: 2rem;
 }
 
+blockquote{
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
 p{
     font-size: 1.5rem;
 }
@@ -21,7 +26,7 @@ p{
 
 .quest1 h1{
     color: #F6F509;
-    padding-top: 2rem;
+    padding-top: 3rem;
     text-align: left;
 }
 
@@ -75,6 +80,151 @@ p{
     margin-top: 2rem;
 }
 
-@media (min-width:768px) {
+.team-img2, .team-img3, .team-img4, .team-img5{
+    margin-top: 2rem;
+}
 
+@media (min-width:768px) {
+    blockquote{
+        font-size: 1.5rem;
+    }
+    .painful h1{
+        margin-left: 15rem;
+    }
+
+    .quest1 h1{
+        padding-top: 5rem;
+        padding-left: 3rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .painful h1 {
+        margin-left: 20rem;
+        font-size: 5rem;
+    }
+
+    .intro h2{
+        font-size: 3rem;
+    }
+
+    blockquote{
+        font-size: 1.7rem;
+    }
+
+    .team{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .team h2{
+        grid-column: 1/span 2;
+    }
+
+    .team-img4{
+        grid-column: 2;
+        grid-row: 2/span 3;
+        padding-left: 2rem;
+        margin-top: 0;
+    }
+
+    .team-img5{
+        grid-column: 2;
+        grid-row: 3/span 4;
+        margin-top: 16rem;
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width:1440px) {
+
+    h1{
+        font-size: 7rem;
+    }
+
+    .problem{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .problem h2{
+        grid-column: 1/ span 2;
+    }
+
+    .prob2, .prob4{
+        padding-left: 2rem;
+    }
+
+    .prob1, .prob3{
+        padding-right: 2rem;
+    }
+
+    .prob1-img{
+        margin-top: 5rem;
+    }
+
+    .prob3, .prob4{
+        margin-top: 3rem;
+    }
+
+    .prob3-img{
+        margin-top: 3.1rem;
+    }
+
+    .painful h1 {
+        margin-left: 30rem;
+    }
+
+    .intro h2{
+        font-size: 5rem;
+    }
+
+    blockquote{
+        font-size: 2.5rem;
+    }
+
+    .position-t h3{
+        font-size: 3rem;
+    }
+
+    .feat-img, .feat2-img, .feat3-4, .work{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .feat1-img1, .feat1-img3, .feat2-img1, .feat3, .work1, .work3, .work5{
+        padding-right: 2rem;
+    }
+
+    .feat1-img2, .feat1-img4, .feat2-img2, .feat4, .work2, .work4, .work6{
+        padding-left: 2rem;
+    }
+
+    .work-t{
+        grid-column: 1/span 2;
+        margin-top: 5rem;
+    }
+
+    .work-t h1{
+        margin: 0;
+    }
+
+    .work-img1{
+        /* margin-top: 1rem; */
+    }
+
+    
+
+
+    /* .prob2 h2, .prob4 h2{
+        margin: 0;
+    } */
+
+    .team-img5{
+        margin-top: 27rem;
+
+    }
 }
