@@ -189,6 +189,10 @@ p{
         font-size: 3rem;
     }
 
+    .future h3{
+        font-size: 3rem;
+    }
+
     .feat-img, .feat2-img, .feat3-4, .work{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -249,6 +253,7 @@ p{
         grid-column: 3;
         grid-row: 3;
         padding-left: 3rem;
+        
     }
     .team-img4{
         grid-column: 1;

@@ -290,19 +290,90 @@
   } */
   
   .intro{
-    margin-top: 2rem;
-    background-color: #3B0092;
-    padding-bottom: 2rem;
+    /* margin-top: 2rem; */
+    /* background-color: #3B0092; */
+    padding-bottom: 5rem;
+    position: relative;
+    height: 400px;
   }
 
   .header{
-    padding-top: 2rem;
-    color : white;
+    /* padding-top: 2rem; */
+    /* color : white; */
+    z-index: 1;
+    position: relative;
+    text-align: center;
+  }
+
+  .portrait{
+    position: absolute;
+    top: 100;
+    left:130;
+    width: 150px; /* adjust size as needed */
+    height: auto;
+    z-index: 2;
+    /* opacity: 0.8; */
+  }
+
+  .text{
+    position: absolute;
+    top: 340;
+    padding: 1rem;
   }
 
   h1{
-    font-size: 3.3rem;
+    font-size: 8rem;
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;;
   }
+
+  @media (min-width:768px) {
+
+    h1{
+      font-size: 15rem;
+      margin-top: 3rem;
+    }
+
+    .intro{
+      height: 600;
+      padding-bottom: 10rem;
+    }
+
+    .portrait{
+      width: 250px;
+      top: 150;
+      left: 280;
+    }
+
+    .text{
+      top: 550;
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width:1024px) {
+    h1{
+      font-size: 20rem;
+    }
+
+    .intro{
+      height: 700;
+      padding-bottom: 20rem;
+    }
+
+
+    .portrait{
+      width: 300px;
+      left: 340;
+      top: 220;
+    }
+
+    .text{
+      top: 700;
+      font-size: 2rem;
+    }
+  }
+
 
 
 
@@ -317,6 +388,27 @@
       background-color: white;
     } */
 
+    h1{
+      font-size: 30rem;
+    }
+
+    .intro{
+      height: 1000;
+      padding-bottom: 20rem;
+    }
+
+
+    .portrait{
+      width: 400px;
+      left: 550;
+      top: 300;
+    }
+
+    .text{
+      top: 1000;
+      font-size: 2rem;
+    }
+
     .topnav a{
       color: black;
     }
@@ -325,9 +417,9 @@
       padding-bottom: 5rem;
     }
 
-    h1{
+    /* h1{
       font-size: 5rem;
-    }
+    } */
 
     h2{
       font-size: 4rem;
@@ -376,13 +468,13 @@
     .image3{
       width: 100%;
     }
-
+/* 
     .intro{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       margin-top: 2rem;
-    }
-
+    } */
+/* 
     .portrait{
       grid-column: 1;
       width: 50%;
@@ -392,7 +484,7 @@
     .header{
       grid-column: 2;
       grid-row: 1/span 2;
-    }
+    } */
   
     
   }
