@@ -47,19 +47,6 @@ li{
   font-size: 20px;
 }
 
-.sketches, .logo-digital{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.sketch, .logo-digital-ver{
-  padding: .5rem;
-}
-
-.logo-digital aside{
-  grid-column: 1/span 2;
-}
-
 @keyframes rotate {
   0% { transform: rotate(0deg); }
 100% { transform: rotate(360deg); }
@@ -372,25 +359,6 @@ transform: rotate(45deg);
     /* margin-right: 2rem; */
   }
 
-  .sketches{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    
-  }
-
-  .sketch, .logo-digital-ver{
-    padding: 2rem;
-  }
-
-  .logo-digital{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .logo-digital aside{
-    grid-column: 1/span 4;
-    grid-row: 1;
-  }
-
   .numbertext{
     font-size: 2rem;
     color: black;
@@ -405,7 +373,7 @@ transform: rotate(45deg);
     padding-left: 30%;
   }
 
-   .type-logo{
+  .logo-d, .type-logo{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;

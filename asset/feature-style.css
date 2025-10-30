@@ -9,7 +9,7 @@ body{
   }
 
   h3{
-    color: #D71516;
+    color: #ffffff;
   }
 
   .about, .re-question, .interview-q, .ideation{
@@ -29,7 +29,7 @@ body{
     padding: 1rem;
   }
 
-  .intro, .peopele1, .peopele2, .peopele3, .peopele4{
+  .intro, .people1, .people2, .people3, .people4{
     background-color: black;
     color: white;
     margin-top: 1rem;
@@ -80,14 +80,18 @@ body{
     font-size: 2rem;
   }
 
+  .doc h3{
+    color: #D71516;
+  }
+
   p, li{
     font-size: 1.2rem;
   }
 
   .about{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: auto; */
     padding: 5rem;
   }
 
@@ -95,25 +99,112 @@ body{
     grid-column: 1;
     /* margin: 5rem; */
     padding: 2rem;
+    text-align: center;
+  }
+
+  .intro aside h1, .timeline aside  h1{
+    margin: 0;
   }
 
   .timeline{
     /* margin: 5rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding: 2rem;
-    margin-left: 2rem;
-    margin-top: 0;
+    /* margin-left: 2rem;
+    margin-top: 0; */
   }
+
+
+  .time-r{
+    grid-column: 1;
+  }
+
+  .time-i{
+    grid-column: 2;
+  }
+
   aside{
     margin: 0;
   }
 
-  .audit, .re-question, .interview-q, .interview-p, .ideation, .prd{
+  .audit, .re-question, .interview-q, .prd{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
 
-  .audit1, .aim, .insight, .userflow{
+  .people1, .people2, .people3, .people4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .people-intro{
+
+    grid-column: 1;
+  }
+
+  .people-intro h3{
+    margin-left: 5rem;
+    margin-top: 0;
+  }
+
+  .people-intro blockquote{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    color: #D71516;
+    font-weight: 500;
+  }
+  .people-ex h4, .people-re h4{
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .people-ex, .people-re{
+    margin-top: .7rem;
+    padding: 2rem;
+  }
+
+
+  .people-img{
+    width:50%;
+  }
+
+  .ideation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .ideation aside{
+    grid-column: 1/span 3;
+    grid-row: 1;
+  }
+
+  .insight {
+    grid-column: 1/span 3;
+    grid-row: 2;
+  }
+
+  .sketch{
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .sketch h2{
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .hmw{
+    grid-column: 2/span 3;
+    grid-row: 3;
+    margin: 2rem;
+    padding: 3rem;
+  }
+
+
+  .audit1, .aim, .userflow{
     grid-column: 1;
     padding: 2rem;
   }
@@ -131,14 +222,14 @@ body{
     grid-column: 1;
     
   }
-  .q2, .sketch{
+  .q2{
     grid-column: 2;
     grid-row: 2/span 3;
   }
 
-  .insight, .hmw, .sketch{
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .insight{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .people-img{

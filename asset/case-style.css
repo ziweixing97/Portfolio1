@@ -14,7 +14,7 @@ p{
 nav{
     background-color: orange;
     position: sticky;
-    top: 0;
+    top:50;
     padding-left: 1rem;
     padding-right: 1rem;
 }

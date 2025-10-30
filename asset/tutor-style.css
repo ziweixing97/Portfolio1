@@ -35,6 +35,10 @@ p, li, blockquote{
   font-family: "Work Sans", serif;
 }
 
+.idea li{
+  /* text-align: center; */
+}
+
 blockquote{
   font-style: italic;
 }
@@ -49,7 +53,13 @@ aside{
   margin-top: var(--margin-top);
   border-radius: var(--radius-size);
   background-color: var(--background-color);
+  text-align: center;
 }
+
+ul{
+  list-style-position: inside;
+}
+
 
 .intro{
   background-color: white;
@@ -57,7 +67,7 @@ aside{
   border-radius: var(--radius-size);
   padding: var(--padding-size);
   margin-top: var(--margin-top);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .timeline{
@@ -181,6 +191,10 @@ li{
     padding-top: 0;
   }
 
+  .timeline li{
+    /* text-align: center; */
+  }
+
   img{
     padding-top: 2%;
   }
@@ -193,10 +207,10 @@ li{
 
 
   .about{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    margin-top: 10rem;
+    grid-template-rows: auto; */
+        margin-top: 10rem;
   }
 
   .intro{
@@ -236,7 +250,7 @@ li{
     padding-left: 2rem;
   }
 
-  .interview1, .interview2, .interview3, .insight, .hmw{
+  .interview1, .interview2, .interview3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -250,11 +264,26 @@ li{
   }
 
   .insight-head{
-    grid-column: 1/span 3;
+    /* grid-column: 1/span 3; */
+  }
+
+  .insight1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .insight1 h3, .insight1 blockquote{
+    padding-right: 2rem;
   }
 
   .insight2, .insight3, .hmw2, .hmw3{
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+  }
+
+  .hmw1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 
   /* .industry-research{
